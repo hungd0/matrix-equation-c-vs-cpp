@@ -1,6 +1,8 @@
 # matrix-equation-c-vs-cpp
 AUTHOR: Hung Do
+
 AFFILIATION: University of Maryland, Baltimore County, CMSC313_1114_SP2025
+
 DATE: April 16, 2025
 
 DESCRIPTION: A comparative study of C and C++ implementations for solving a matrix equation. For this project, we will solve D = A + (3 * B) * C^T. The results of this project will help us determine differences in performance and management across two different programming languages. Specifically, this project will demonstrate matrix addition, matrix multiplication, matrix scaling, and matrix transposition.

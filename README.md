@@ -27,7 +27,7 @@ g++ -Wall -Wextra -std=c++17 MatrixFunctions.cpp test-matrix-math.cpp -o matrix_
 
 Then run: 
 ```bash
-./matrix_math*
+./matrix_math
 ```
 
 To build the C version of the project, download the .h and .c files, then run the following instructions:
@@ -37,7 +37,7 @@ gcc -Wall -Wextra -std=c99 Matrix.c test-matrix-math.c -o matrix_math
 
 Then run: 
 ```bash
-./matrix_math*
+./matrix_math
 ```
 
 ## TESTING METHODOLOGY

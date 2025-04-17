@@ -30,7 +30,7 @@ Then run:
 ./matrix_math*
 ```
 
-To build the C version of the project, download the .hpp and .cpp files, then run the following instructions:
+To build the C version of the project, download the .h and .c files, then run the following instructions:
 ```bash
 gcc -Wall -Wextra -std=c99 Matrix.c test-matrix-math.c -o matrix_math
 ```

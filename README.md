@@ -20,22 +20,23 @@ A comparative study of C and C++ implementations for solving a matrix equation. 
 - test-matrix-math.c (C FILE) - Test file containing a main() function that defines example matrices (A, B, and C) and performs the operations to generate the final result, matrix D.
 
 ## BUILD INSTRUCTIONS
-To build the C++ version of the project, download the .hpp and .cpp files, then run the following instructions:
+### To build the C++ version of the project
+1. Download the .hpp and .cpp files, then run the following instructions:
 ```bash
 g++ -Wall -Wextra -std=c++17 MatrixFunctions.cpp test-matrix-math.cpp -o matrix_math
 ```
 
-Then run: 
+2. Then run: 
 ```bash
 ./matrix_math
 ```
-
-To build the C version of the project, download the .h and .c files, then run the following instructions:
+### To build the C version of the project
+1. Download the .h and .c files, then run the following instructions:
 ```bash
 gcc -Wall -Wextra -std=c99 Matrix.c test-matrix-math.c -o matrix_math
 ```
 
-Then run: 
+2. Then run: 
 ```bash
 ./matrix_math
 ```

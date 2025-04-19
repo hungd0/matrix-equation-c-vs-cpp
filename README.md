@@ -52,6 +52,7 @@ This project will test the matrix methods with hardcoded matrics A, B, and C. Th
 - Note for the C version: due to the need for intermediate declarations of the Matrix struct, the user must store the result of each operation of a compound equation in a separate struct. This is to prevent memory leaks on termination. For example, for A+B*C, do:
 ```bash
 ...
+
 product_B_C = multiply(B,C);
 add_A_product = add(A,product_B_C);
 

@@ -49,7 +49,7 @@ This project will test the matrix methods with hardcoded matrics A, B, and C. Th
 ## ADDITIONAL INFORMATION
 - C++ version uses vectors to clean up memory without manual delete calls.
 - C++ version uses size_t for x86 compatability
-- Note for the C version: due to the need for intermediate declarations of the Matrix struct, the user must store the result of each operation of a compound equation in a separate struct. This is to prevent memory leaks on termination. For example, for A+B*C, do:
+- Note for the C version: due to the need for intermediate declarations of the Matrix struct (intermediate memory allocation), the user must store the result of each operation of a compound equation in a separate struct (otherwise allocated memory would not be reachable for freeing). This is to prevent memory leaks on termination. For example, for A+B*C, do:
 ```bash
 ...
 

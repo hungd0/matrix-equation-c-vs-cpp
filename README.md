@@ -44,7 +44,10 @@ gcc -Wall -Wextra -std=c99 Matrix.c test-matrix-math.c -o matrix_math2
 ```
 
 ## TESTING METHODOLOGY
-This project will test the matrix methods with hardcoded matrics A, B, and C. The hardcoded matrices purposesly result in a valid solution. Any mismatches in matrix dimensions will throw and error. The matrices will be used to solve D = A + (3 * B) * C^T, in which the result will be printed in a row by row order for readability.
+This project will test the matrix methods with hardcoded matrics A, B, and C. The hardcoded matrices purposesly result in a valid solution. Any mismatches in matrix dimensions will throw and error. 
+> *It is given: A = {{6, 4},{8, 3}}; B = {{1, 2, 3},{4, 5, 6}}; C = {{2, 4, 6},{1, 3, 5}}.*
+
+The matrices will be used to solve D = A + (3 * B) * C^T, in which the result will be printed in a row by row order for readability.
 
 ## ADDITIONAL INFORMATION
 - C++ version uses vectors to clean up memory without manual delete calls.
